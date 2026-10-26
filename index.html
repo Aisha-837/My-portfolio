@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aisha Waleed | Full Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="intro">
+  <div class="avatar-wrap big">
+    <svg class="ring" viewBox="0 0 200 200"><defs><path id="c" d="M100,100 m-82,0 a82,82 0 1,1 164,0 a82,82 0 1,1 -164,0"/></defs>
+      <text><textPath href="#c">FULL STACK DEVELOPER ✦ SOCIAL MEDIA MANAGER ✦ AI CONTENT CREATOR ✦</textPath></text></svg>
+    <img src="profile.jpg" alt="Aisha Waleed" class="avatar">
+    <div class="wave" id="wave"><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+  <h2 class="hi" id="hi">Hi, I am <span>Aisha Waleed</span></h2>
+  <button id="enter">✦ Tap to Enter ✦</button>
+</div>
+
+<main id="site" class="hidden">
+  <nav><b>AW.</b><div><a href="#about">About</a><a href="#skills">Skills</a><a href="#tech">Tech</a><a href="#projects">Projects</a><a href="#certs">Certificates</a><a href="#resume">Resume</a><a href="#contact">Contact</a></div></nav>
+  <section class="hero">
+    <div class="hero-text">
+      <p class="tag">Assalamu Alaikum 🌿</p>
+      <h1>Aisha <em>Waleed</em></h1>
+      <h3 id="typed"></h3>
+      <p class="sub">I build beautiful, functional web experiences, manage social media brands and craft AI-powered content.</p>
+      <a class="btn" href="#projects">View Projects</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/aisha-waleed-071353396" target="_blank">LinkedIn</a><a class="btn ghost" href="resume.pdf" download="Aisha_Waleed_Resume.pdf">Download Resume</a>
+    </div>
+    <div class="avatar-wrap"><svg class="ring" viewBox="0 0 200 200"><text><textPath href="#c">FULL STACK DEVELOPER ✦ SOCIAL MEDIA MANAGER ✦ AI CONTENT CREATOR ✦</textPath></text></svg>
+      <img src="profile.jpg" class="avatar" alt="Aisha"></div>
+  </section>
+
+  <section id="about" class="reveal"><h2>About <em>Me</em></h2>
+    <p>Small steps, big dreams. I am a Full Stack Developer who loves turning ideas into clean, modern products. Beyond code, I work as a Social Media Manager and AI Content Creator, helping brands grow their voice online with creativity and strategy.</p></section>
+
+  <section id="skills" class="reveal"><h2>What I <em>Do</em></h2>
+    <div class="cards">
+      <div class="card"><span>💻</span><h4>Full Stack Development</h4><p>HTML, CSS, JavaScript, React, Node, databases and APIs.</p></div>
+      <div class="card"><span>📱</span><h4>Social Media Management</h4><p>Content calendars, growth strategy, branding and engagement.</p></div>
+      <div class="card"><span>✨</span><h4>AI Content Creation</h4><p>AI visuals, reels, captions and scripts that stand out.</p></div>
+    </div></section>
+
+  <section id="tech" class="reveal"><h2>Languages <em>&amp; Tech</em></h2><div class="cards" id="techbox"></div></section>
+
+  <section id="projects" class="reveal"><h2>My <em>Projects</em></h2><div class="cards" id="proj"></div></section>
+
+  <section id="certs" class="reveal"><h2>My <em>Certificates</em></h2><p>Tap any certificate to view it full screen.</p><div class="cert-grid" id="certbox"></div></section>
+
+  <section id="resume" class="reveal"><h2>My <em>Resume</em></h2>
+    <p>Click the resume to download it.</p>
+    <a class="resume-card" href="resume.pdf" download="Aisha_Waleed_Resume.pdf" title="Click to download"><img src="resume.png" alt="Aisha Waleed Resume"><span>⬇ Download Resume</span></a>
+    <br><a class="btn" href="resume.pdf" download="Aisha_Waleed_Resume.pdf">⬇ Download Resume (PDF)</a>
+    <a class="btn ghost" href="tel:03018803247">📞 03018803247</a></section>
+
+  <section id="contact" class="reveal"><h2>Let's <em>Connect</em></h2>
+    <p>Want to work together? Reach out on LinkedIn or call 03018803247.</p>
+    <a class="btn" href="https://www.linkedin.com/in/aisha-waleed-071353396" target="_blank">LinkedIn</a><a class="btn ghost" href="https://www.instagram.com/cookwithaishabatla?dlrf=MWoyNXAxcXYwMjZkMA%3D%3D&utm_source=qr" target="_blank" rel="noopener">Instagram</a><a class="btn ghost" href="https://www.facebook.com/share/1dWWsxgT3t/?mibextid=wwXIfr" target="_blank" rel="noopener">Facebook</a><a class="btn ghost" href="https://youtube.com/@cookwithaishabatla?si=KLOpYDYD7lTsOUBy" target="_blank" rel="noopener">YouTube</a></section>
+  <div id="modal" class="modal"><div class="mbox"><button id="mclose">✕</button><h3 id="mtitle"></h3><p>Choose where to open:</p><div id="mlinks"></div></div></div>
+  <div id="lightbox" class="modal"><img id="limg" alt="Certificate"><button id="lclose">✕</button></div>
+  <footer>© 2026 Aisha Waleed</footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
